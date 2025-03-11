@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="LovePoints" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="hf59a3d75g9d2dg41ebg9b12ge45fa04138d2" version="1" /> 
+					<attribute id="Description" type="TranslatedString" handle="hcccba69cga62cg4a08g8db7gc51a20e361cd" version="1" /> 
+					<attribute id="DiceType" type="uint32" value="0" /> 
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="FullRest" /> 
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
+                    <attribute id="UUID" type="guid" value="2685a574-4682-4ea7-8a51-5fe1cd46cb46" /> 
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression"> Main class Progression for Assassin Level 1
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1;UnlockedSpellSlotLevel2;FightingStyle_Archery;FightingStyle_TwoWeaponFighting" />
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Shortswords);ActionResource(SneakAttack_Charge,1,0);ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)" />
+                    <attribute id="Level" type="uint8" value="1" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(36e6804d-128d-4216-99ae-435521d3fced,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,6,4,2);AddSpells(8a5c6516-a502-4637-9ec4-b48b94d665a7)" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="96e63c14-284e-4a55-9080-3f024a46d292" />
+                </node>
+        <node id="Progression"> Assassin Multiclass Level 1
+                    <attribute id="Name" type="LSString" value="Assassin" />
+                    <attribute id="AllowImprovement" type="bool" value="false" />
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1;UnlockedSpellSlotLevel2;FightingStyle_Archery;FightingStyle_TwoWeaponFighting" />
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Shortswords);ActionResource(SneakAttack_Charge,1,0);ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(8a5c6516-a502-4637-9ec4-b48b94d665a7)" />
+					<attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="54611949-3289-4c4b-ac99-851d91a49d70" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 2
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="FastHands;Evasion" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="2" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="fc44d4c3-a7cb-4280-a29d-73e8c291c504" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 3
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="FastMovement;DarkVision;ModeratelyArmored" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="3" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="dea5330b-bef4-4678-9ce7-a8e55d0dcf3c" />
+                    <children> Node for subclasses. Can accompany with whatever level you want to give the choice to select a subclass
+                        <node id="SubClasses"> 
+                            <children>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="e43b3691-8c42-477b-8470-746afe559781" /> Master Assassin
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 4
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="true" />
+					<attribute id="PassivesAdded" type="LSString" value="SavageAttacker;DistractingStrike" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SuperiorityDie,12,0)" />
+                    <attribute id="Level" type="uint8" value="4" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="c7f14b95-8ffb-49ac-93f3-a4868aeab495" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 5
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="Shout_HideInPlainSight;DisarmingStrike;MediumArmorMaster" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="5" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="05830497-1afa-4b34-9b97-35025aef32c2" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 6
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="ReliableTalent;LivingShadow" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="6" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="f9c08baa-8a7f-4004-86fe-4fa8d683bbdf" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 7
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="DevilsSight" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="7" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="7f0eaa13-c496-4570-bce8-ad5b08b9f9f5" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 8
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="true" />
+					<attribute id="PassivesAdded" type="LSString" value="ControlledChaos" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="8" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="29fb0ac2-0922-4f33-9968-2615ab5bfc12" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 9
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="UncannyDodge" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="9" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="5f067e59-9d23-4953-a006-5469a69a120e" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 10
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="HellishRebuke_4;BrutalCritical" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="10" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="5333c6bc-9374-4143-8d2d-b3b5bbcc3094" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 11
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="ImmuneToDisarm" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="11" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="660dd783-a62a-4066-b178-3ebcff79f78e" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 12
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="true" />
+					<attribute id="PassivesAdded" type="LSString" value="EntropicWard" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="12" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="5eae3d23-8e86-48c7-b1bd-004ad02d5046" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 13
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="FelineFall" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="13" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="334b42ef-b2c6-4d9c-8086-dec0502bf81f" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 14
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="EldritchStrike" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="14" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="d22abeba-dc85-4d82-9a78-18367c34aaad" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 15
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="GrimHarvest" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="15" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="a8682f46-79c6-480b-b587-0f46eecb2511" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 16
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="true" />
+					<attribute id="PassivesAdded" type="LSString" value="Lifedrinker" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="16" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="ab3966c4-a623-46e8-b0b6-83b7d2cda8c6" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 17
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="Guided_Strike" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ChannelDivinity,5,0)" />
+                    <attribute id="Level" type="uint8" value="17" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="73b2cebd-ab63-42d9-b3b2-734a360815db" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 18
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="InuredtoUndeath" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="18" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="096b5feb-6e5b-41fb-8681-db801d5358df" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 19
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="false" />
+					<attribute id="PassivesAdded" type="LSString" value="EscapeTheHorde" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="19" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="52ed44f4-ea05-465e-bce1-76216c115d88" />
+                </node>
+        <node id="Progression"> Main class Progression for Assassin Level 20
+                    <attribute id="Name" type="LSString" value="Assassin" />
+					<attribute id="AllowImprovement" type="bool" value="true" />
+					<attribute id="PassivesAdded" type="LSString" value="DreadAmbusher" />
+                    <attribute id="Boosts" type="LSString" value="" />
+                    <attribute id="Level" type="uint8" value="20" />
+                    <attribute id="ProgressionType" type="uint8" value="0" />
+                    <attribute id="Selectors" type="LSString" value="" />
+                    <attribute id="TableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" />
+                    <attribute id="UUID" type="guid" value="957f5fe5-378d-4fe9-9943-d7bbd32afaeb" />
+                </node>
+        <node id="Progression"> Subclass Progression for Master Assassin Level 3
+                    <attribute id="Name" type="LSString" value="Master Assassin" />
+					<attribute id="Level" type="uint8" value="3" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel3;DualWielder_BonusAC;ExtraAttack;DangerSense" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,4,3);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,1)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(55312220-fd9a-489e-a2fd-539b1f2a325e)" />
+                    <attribute id="TableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" /> 
+                    <attribute id="UUID" type="guid" value="93a4d681-2431-44c8-8c97-458ec34500a1" /> 
+                </node>
+        <node id="Progression"> Subclass Progression for Master Assassin Level 6
+                    <attribute id="Name" type="LSString" value="Master Assassin" />
+					<attribute id="Level" type="uint8" value="6" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel4;SteelWill" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,4,4);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,1,1)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(d20194dc-e0f0-448f-bdd8-866347a957e1)" />
+                    <attribute id="TableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" /> 
+                    <attribute id="UUID" type="guid" value="76555acf-238c-4f43-9076-948bd67dc307" /> 
+                </node>
+        <node id="Progression"> Subclass Progression for Master Assassin Level 9
+                    <attribute id="Name" type="LSString" value="Master Assassin" />
+					<attribute id="Level" type="uint8" value="9" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel5;ExtraAttack_2" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,4,5);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,1,1)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(667cec52-0dfa-4f13-9285-93b2ab479a8a)" />
+                    <attribute id="TableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" /> 
+                    <attribute id="UUID" type="guid" value="3b3b16e0-756a-4b74-9feb-fa16cd90ee84" /> 
+                </node>
+        <node id="Progression"> Subclass Progression for Master Assassin Level 12
+                    <attribute id="Name" type="LSString" value="Master Assassin" />
+					<attribute id="Level" type="uint8" value="12" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel6;ExplosiveRetribution;FinishingStrike" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,4,6);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,1,1)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(19ca8c61-0a69-4567-9aff-ef25eb054c7a)" />
+                    <attribute id="TableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" /> 
+                    <attribute id="UUID" type="guid" value="2f32bbdb-9a2b-4b6a-b7fa-a50ec3046ae2" /> 
+                </node>
+        <node id="Progression"> Subclass Progression for Master Assassin Level 15
+                    <attribute id="Name" type="LSString" value="Master Assassin" />
+					<attribute id="Level" type="uint8" value="15" />
+                    <attribute id="ProgressionType" type="uint8" value="1" /> 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel9" />
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,9)" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(ddf147cf-64ff-4732-b5fa-41e1b30e9dca)" />
+                    <attribute id="TableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" /> 
+                    <attribute id="UUID" type="guid" value="4e40398e-b80c-4cb4-9de3-081a888094ce" /> 
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

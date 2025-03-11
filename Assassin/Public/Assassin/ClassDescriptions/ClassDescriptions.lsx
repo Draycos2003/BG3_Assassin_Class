@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+        <node id="ClassDescription"> Main Class for Assassin
+                    <attribute id="BaseHp" type="int32" value="12" /> Hit Die
+                    <attribute id="CanLearnSpells" type="bool" value="true" />
+					<attribute id="ClassEquipment" type="FixedString" value="EQP_Assassin" /> 
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" /> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8c432960g22dbg4041g8578g179166ba2e41" version="1" /> 
+					<attribute id="Description" type="TranslatedString" handle="h353c985aga04dg4e29g9792gd03865afa0b8" version="1" /> 
+                    <attribute id="HpPerLevel" type="int32" value="7" /> Half Hit Die + 1
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" /> H
+                    <attribute id="Name" type="FixedString" value="Assassin" /> 
+                    <attribute id="PrimaryAbility" type="uint8" value="2" /> 
+                    <attribute id="ProgressionTableUUID" type="guid" value="e9d7d0d9-163f-4388-99d8-0cac2d65a735" /> 
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue" /> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="2" /> 
+                    <attribute id="UUID" type="guid" value="9870e8f8-1aa7-4747-adfa-9e3a1f815b28" /> 
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f8a0608b-666c-4be6-a49c-03b369c10bd2" /> Dialogue tag Rogue
+                        </node>
+                    </children>
+                </node>
+        <node id="ClassDescription"> Subclass for Master Assassin
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6ebd182fg6217g476bga0a6gc111a778b4f2" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h02b12a76g985fg4255g9bf5g1e38d27c5f38" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="Name" type="FixedString" value="MasterAssassin" />
+                    <attribute id="ParentGuid" type="guid" value="9870e8f8-1aa7-4747-adfa-9e3a1f815b28" />
+                    <attribute id="PrimaryAbility" type="uint8" value="2" />
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_Assassin" /> 
+                    <attribute id="ProgressionTableUUID" type="guid" value="817cc6aa-4920-4a55-9a1c-d5d18c6a9946" />
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="2" />
+                    <attribute id="UUID" type="guid" value="e43b3691-8c42-477b-8470-746afe559781" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,2 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
